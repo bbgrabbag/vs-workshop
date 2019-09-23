@@ -1,0 +1,38 @@
+{
+  "name": "vs-workshop",
+  "version": "1.0.0",
+  "description": "Project demonstrating basic front end technologies ",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbgrabbag/vs-workshop.git"
+  },
+  "author": "Ben Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbgrabbag/vs-workshop/issues"
+  },
+  "homepage": "https://github.com/bbgrabbag/vs-workshop#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "style-loader": "^1.0.0",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.1.2",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "dependencies": {
+    "@types/webpack": "^4.39.1",
+    "webpack": "^4.40.2"
+  }
+}

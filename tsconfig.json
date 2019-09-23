@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "module": "commonjs",
+    "target": "es5"
+}
