@@ -30,13 +30,13 @@ Further Reading:
 - [Bundler Comparisons](https://medium.com/@ajmeyghani/javascript-bundlers-a-comparison-e63f01f2a364)
 
 ## Version Control
-**You simply are not hireable if you are not comfortable with managing and documenting your progress in a sensible way using version control software.** Version control is the fundamental tool that modern teams of software developers use to collaborate on a product. The commit history is often integrated into a manager's workflow for keeping track of progress on a particular feature/product. 
+**New developers need to become comfortable with managing and documenting progress in a sensible way using version control software.** Version control is the fundamental tool that modern teams of software developers use to collaborate on a product. The commit history is often integrated into a manager's workflow for keeping track of progress on a particular feature/product. 
 
-A couple tips for using version control:
+A couple tips:
 - Always plan ahead what your next commit will be, and keep it SMALL and FOCUSED on a particular functionality. Don't commit 500 lines of code that contain changes to 15 unrelated files with a commit message that says 'Fixed some s***'. You will be fired.
 - Use branching to manage larger features/functionalities. For example, if you need to build out an authentication system, create a branch first and then make small, incremental commits that are well documented and testable until the entire branch represents a fully functional and testable authentication system.
 
-Competency in version control has a few other benefits as well besides being necessary for employment:
+Competency in version control has a few other benefits as well:
 - Allows you try new things without worrying about breaking the current build. Your attempted solution didn't work? Just delete the branch and start from where you left off.
 - Improves efficiency and organization.
 - Streamlines collaboration. 
@@ -60,7 +60,7 @@ Further Reading:
 ## General Coding Techniques/Philosophies
 Software engineers are rarely building a project from scratch. They are hired to work on an existing codebase that has been continuously updated over a period of years by dozens of developers. So, you're not the only one that sees your code. Here are some helpful tips for writing professional code:
 
-- Document your code thoroughly. The less time someone else has to spend trying to understand what you're code is actually doing and why it was written that way the easier it is for them to actually implement it.
+- Document your code thoroughly. The less time someone else has to spend trying to understand what your code is actually doing and why it was written that way the easier it is for them to actually implement it.
 - Stay DRY (Don't Repeat Yourself).
 - Avoid writing goliath-sized functions. Build small libraries of functions that do one small thing each and compose them together.
 - Be explicit about what your function/component depends on as well as what it returns.
