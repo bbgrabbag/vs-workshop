@@ -1,10 +1,9 @@
 # VS Workshop
 
 ## Intro
-This repo is a simple example of a project which contains a typical set of linting, testing, bundling, and compiling tools that are important for developing front-end applications effectively. They are chosen based on my own experience and do not necessarily represent what is 'best'. The goal of this workshop is simply to introduce new students to common web technologies and coding techniques used in the industry.
+This repo contains boilerplate for a typical set of linting, testing, bundling, and compiling tools that are important for developing front-end applications effectively. They are chosen based on my own experience and do not necessarily represent what is 'best'. The goal of this workshop is simply to introduce new students to common web technologies and coding techniques used in the industry.
 
 ## Setup
-
 1) Clone Repository `git clone <path-to-root> https://github.com/bbgrabbag/vs-workshop.git`
 2) Install dependencies `npm install`
 3) Start Development server `npm run dev`
@@ -92,3 +91,4 @@ Software engineers are rarely building a project from scratch. They are hired to
 Further Reading:
 - [The UNIX philosophy](https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html)
 - [The Front End Developer Handbook](https://frontendmasters.com/books/front-end-handbook/2019/)
+- [JSDocs](https://jsdoc.app/about-getting-started.html#getting-started)
